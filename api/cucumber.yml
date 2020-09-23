@@ -1,0 +1,3 @@
+default: -p pretty -p html --publish-quiet
+pretty: --format pretty
+html: --format html --out=reports/relatorio.html
