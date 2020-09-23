@@ -21,15 +21,20 @@ são cenários básicos, que podem ser bem mais explorados com um tempo maior.
 
 Configuracao do projeto:
 No console de sua IDE vá para o diretório ui do projeto e execute os seguintes comandos:
+
 gem install bundle
+
 bundle install
 
 Após executar essa configuracao com sucesso os testes poderão ser executados.
 
 Como executar os testes:
 Execute os seguintes comandos no terminal:
+
 cucumber (rodará tds os testes do projeto)
+
 cucumber --tags='@login' (rodará tds os cenários de login)
+
 cucumber --tags='@login-sucesso'(rodará tds os cenários de logins realizados com sucesso)
 
 Como visualizar os Relatórios:
@@ -49,14 +54,18 @@ O projeto basicamente está estruturado em Ruby com HTTParty e Cucumber (confess
 
 Configuracao do projeto:
 No console de sua IDE vá para o diretório api do projeto e execute os seguintes comandos:
+
 gem install bundle
+
 bundle install
 
 Após executar essa configuracao com sucesso os testes poderão ser executados.
 
 Como executar os testes:
 Execute os seguintes comandos no terminal:
+
 cucumber (rodará tds os testes do projeto)
+
 cucumber --tags='@api'(rodará o cenário de api)
 
 Como visualizar os Relatórios:
