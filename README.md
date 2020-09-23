@@ -4,10 +4,10 @@ Boa tarde, pessoal.
 
 O projeto está dividido em 3 partes:
 
-*PARTE 1* 
+# PARTE 1 
 Apresentacao dos fluxos críticos (arquivo Fluxos_Criticos_Ze.pptx)
 
-*PARTE 2*
+# PARTE 2
 Testes automatizados de UI, o projeto está dentro do diretório ui.
 
 Pré requisitos de instalacao:
@@ -22,27 +22,27 @@ são cenários básicos, que podem ser bem mais explorados com um tempo maior.
 Configuracao do projeto:
 No console de sua IDE vá para o diretório ui do projeto e execute os seguintes comandos:
 
-gem install bundle
+- gem install bundle
 
-bundle install
+- bundle install
 
 Após executar essa configuracao com sucesso os testes poderão ser executados.
 
 Como executar os testes:
 Execute os seguintes comandos no terminal:
 
-cucumber (rodará tds os testes do projeto)
+- cucumber (rodará tds os testes do projeto)
 
-cucumber --tags='@login' (rodará tds os cenários de login)
+- cucumber --tags='@login' (rodará tds os cenários de login)
 
-cucumber --tags='@login-sucesso'(rodará tds os cenários de logins realizados com sucesso)
+- cucumber --tags='@login-sucesso'(rodará tds os cenários de logins realizados com sucesso)
 
 Como visualizar os Relatórios:
 O próprio terminal irá demonstrar se os testes foram executados e se passaram ou náo.
 Outra forma de visualizar é abrindo o html de cucumber_web_report que fica dentro do diretório ui.
 Dentro da pasta log (consta o print do último passo de cada cenário executado que é sobreescrito a cada vez que roda o teste).
 
-*PARTE 3* 
+# PARTE 3 
 
 Testes automatizados API, o projeto está dentro do diretório api.
 
@@ -55,18 +55,18 @@ O projeto basicamente está estruturado em Ruby com HTTParty e Cucumber (confess
 Configuracao do projeto:
 No console de sua IDE vá para o diretório api do projeto e execute os seguintes comandos:
 
-gem install bundle
+- gem install bundle
 
-bundle install
+- bundle install
 
 Após executar essa configuracao com sucesso os testes poderão ser executados.
 
 Como executar os testes:
 Execute os seguintes comandos no terminal:
 
-cucumber (rodará tds os testes do projeto)
+- cucumber (rodará tds os testes do projeto)
 
-cucumber --tags='@api'(rodará o cenário de api)
+- cucumber --tags='@api'(rodará o cenário de api)
 
 Como visualizar os Relatórios:
 O próprio terminal irá demonstrar se os testes foram executados e se passaram ou náo.
